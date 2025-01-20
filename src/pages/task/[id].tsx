@@ -71,7 +71,8 @@ export default function Task({ item, allComments }: ItemProps ){
                 user: session?.user?.email,
                 name: session?.user?.name,
                 commentId: item?.taskId,
-                created: new Date().toISOString(),
+                created: new Date(),
+                id: '',
                 
             }
             
