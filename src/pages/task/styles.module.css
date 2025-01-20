@@ -1,0 +1,131 @@
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+
+.article {
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.article p {
+    margin-bottom: 25px;
+
+}
+
+.user {
+    font-size: smaller;
+    font-style: italic;
+}
+.itemTarefa {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:larger;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button {
+    width: 80px;
+    border-radius: 5px;
+    font-size:smaller;
+}
+.commentSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.commentSection h3 {
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    
+    color: brown;
+    
+    margin: 15px;
+}
+.comments {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5px;
+
+}
+
+.comments1 {
+    width: 100%;
+}
+
+.contentComment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    border: 1px solid brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        justify-content: baseline;
+
+    }
+
+    .form {
+        width: 90%;
+        height: 50%;
+    }
+
+    .commentSection{
+        width: 80%;
+    }
+    .comments {
+        width: 90%;
+    }
+
+    .comments1 {
+        width: 100%;
+    }
+    .article {
+
+        width: 90%;
+    }
+}

@@ -1,0 +1,139 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content:left;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.checkBoxArea {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 8px;
+    justify-content: left;
+    color: white;
+    size: 50px;
+}
+.checkBoxArea input {
+    width: 18px;
+    height: 18px;
+}
+.checkBoxArea label {
+    margin-left: 8px;
+}
+.buttonArea {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+.button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #3183ff;
+    color: white;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.4s;
+    
+}
+.button:hover{
+    background: #3183ffa9;
+}
+
+.taskContainer {
+    margin: 34px auto 0 auto;
+    display: flex;
+    background: #fff;
+    width: 100%;
+    max-width: 1024px;
+    flex-direction: column;
+    padding: 18px 5px;
+    border-radius: 8px;
+
+}
+.task {
+    border: rgb(124, 122, 122) 1.5px solid;
+    border-radius: 4px;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-top: 8px;
+    line-height: 150%;
+}
+.taskContainer a {
+    text-decoration: none;
+}
+
+.taskContainer h1 {
+    text-align: center;
+}
+
+.tagContainer{
+    margin: 8px 0 0 8px;
+}
+.public {
+    color: #fff;
+    background: #3183ff;
+    border: black 0.5px solid;
+    border-radius: 4px;
+    font-size: small;
+    padding: 2px 2px;
+    margin-right: 3px;
+}
+.shareButton {
+    color: #0768fa;
+}
+.taskContent {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    justify-content: space-between;
+}
+.taskContent p {
+    white-space: pre-wrap;
+}
+.trashButton {
+    color: red;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 90%;
+    }
+
+    .taskContainer {
+        width: 90%;
+    }
+
+}
